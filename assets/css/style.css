@@ -34,6 +34,9 @@ overflow: auto;
     float: left;
     width: 250px;
     height: 90px;
+    padding-top: 30px;
+    font-size: 25px;
+    
 }
 
 nav {
@@ -43,9 +46,10 @@ nav {
 
 nav a {
     display: inline-block;
-    padding-left: 15px;
-    margin-left: 15px;
-    color: #fff;
+    padding-left: 50px;
+    margin-left: 50px;
+    color: #777777;
+    background-color: white;
 }
 
 a {
@@ -54,8 +58,18 @@ a {
 
 #left {
     float: left;
+    text-decoration: underline;
 }
 
 #right {
     float: right;
+}
+.boxed {
+    border: 1 px #777777;
+    
+}
+.footer {
+    border-top: 8px solid #4aaaa5;
+    border-color: #666666;
+    height: 50px;
 }
